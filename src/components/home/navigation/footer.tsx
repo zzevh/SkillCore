@@ -134,7 +134,7 @@ const Footer = () => {
                 <p className="text-sm text-muted-foreground mt-8 md:mt-0">
                     &copy; {new Date().getFullYear()} SkillCore Agency. All rights reserved.
                 </p>
-                <a href="//www.dmca.com/Protection/Status.aspx?ID=990ab6bc-a72f-42b0-b6e4-c3787e5b79fb" title="DMCA.com Protection Status"> <img src="https://images.dmca.com/Badges/dmca-badge-w100-5x1-08.png?ID=990ab6bc-a72f-42b0-b6e4-c3787e5b79fb" alt="DMCA.com Protection Status" /></a>  <script src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"> </script>
+
             </div>
         </footer>
     )
