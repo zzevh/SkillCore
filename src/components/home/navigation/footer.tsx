@@ -69,7 +69,7 @@ const Footer = () => {
                                 </li>
                                 <li className="mt-2">
                                     <Link href="" className="hover:text-foreground transition-all duration-300">
-                                        Twitter
+                                        Behance
                                     </Link>
                                 </li>
                                 <li className="mt-2">
