@@ -1,4 +1,5 @@
 import { Footer, Navbar } from "@/components";
+import { Analytics } from "@vercel/analytics/react"
 import { SITE_CONFIG } from "@/config";
 import { cn } from "@/lib/utils";
 import "@/styles/globals.css";
@@ -26,6 +27,7 @@ export default function RootLayout({
                 <ClerkProvider appearance={{ baseTheme: dark }}>
                     {children}
                 </ClerkProvider>
+                <Analytics />
             </body>
         </html>
     );
