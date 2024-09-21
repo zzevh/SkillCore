@@ -42,12 +42,12 @@ const Footer = () => {
                                 </li>
                                 <li className="mt-2">
                                     <Link href="" className="hover:text-foreground transition-all duration-300">
-                                        Testimonials
+                                        Our Customers
                                     </Link>
                                 </li>
                                 <li className="mt-2">
                                     <Link href="" className="hover:text-foreground transition-all duration-300">
-                                        Integration
+                                        Newsletter
                                     </Link>
                                 </li>
                             </ul>
@@ -59,7 +59,7 @@ const Footer = () => {
                             <ul className="mt-4 text-sm text-muted-foreground">
                                 <li className="">
                                     <Link href="" className="hover:text-foreground transition-all duration-300">
-                                        Facebook
+                                        Discord
                                     </Link>
                                 </li>
                                 <li className="mt-2">
@@ -88,12 +88,12 @@ const Footer = () => {
                             <ul className="mt-4 text-sm text-muted-foreground">
                                 <li className="mt-2">
                                     <Link href="" className="hover:text-foreground transition-all duration-300">
-                                        Blog
+
                                     </Link>
                                 </li>
                                 <li className="mt-2">
                                     <Link href="" className="hover:text-foreground transition-all duration-300">
-                                        Case Studies
+
                                     </Link>
                                 </li>
                                 <li className="mt-2">
