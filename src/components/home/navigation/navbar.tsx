@@ -42,6 +42,7 @@ const Navbar = async () => {
                                 </Link>
                             </>
                         )}
+
                     </div>
                 </div>
             </Container>
