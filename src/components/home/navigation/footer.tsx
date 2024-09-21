@@ -87,13 +87,13 @@ const Footer = () => {
                             </h3>
                             <ul className="mt-4 text-sm text-muted-foreground">
                                 <li className="mt-2">
-                                    <Link href="" className="hover:text-foreground transition-all duration-300">
-
+                                    <Link href="https://www.dmca.com/Protection/Status.aspx?ID=990ab6bc-a72f-42b0-b6e4-c3787e5b79fb&refurl=https://www.skillcore.agency/" className="hover:text-foreground transition-all duration-300">
+                                        DMCA
                                     </Link>
                                 </li>
                                 <li className="mt-2">
-                                    <Link href="" className="hover:text-foreground transition-all duration-300">
-
+                                    <Link href="https://brandfetch.com/skillcore.agency" className="hover:text-foreground transition-all duration-300">
+                                        BrandFetch
                                     </Link>
                                 </li>
                                 <li className="mt-2">
