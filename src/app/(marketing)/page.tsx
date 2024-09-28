@@ -32,8 +32,8 @@ const HomePage = () => {
                                 <span className="spark mask-gradient absolute inset-0 h-[100%] w-[100%] animate-flip overflow-hidden rounded-full [mask:linear-gradient(white,_transparent_50%)] before:absolute before:aspect-square before:w-[200%] before:rotate-[-90deg] before:animate-rotate before:bg-[conic-gradient(from_0deg,transparent_0_340deg,white_360deg)] before:content-[''] before:[inset:0_auto_auto_50%] before:[translate:-50%_-15%]" />
                             </span>
                             <span className="backdrop absolute inset-[1px] rounded-full bg-neutral-950 transition-colors duration-200 group-hover:bg-neutral-900" />
-                            <span className="h-full w-full blur-md absolute bottom-0 inset-x-0 bg-gradient-to-tr from-primary/40"></span>
-                            <span className="z-10 py-0.5 text-sm text-neutral-100 flex items-center justify-center gap-1.5">
+                            <span className="h-full w-full blur-md absolute bottom-0 inset-x-0 bg-gradient-to-tr from-primary/40 cursor-auto"></span>
+                            <span className="z-10 py-0.5 text-sm text-neutral-100 flex items-center justify-center gap-1.5 cursor-auto">
                                 <Image src="/icons/sparkles-dark.svg" alt="✨" width={24} height={24} className="w-4 h-4" />
                                 Introducing SkillCore Agency
                                 <ChevronRight className="w-4 h-4" />
@@ -48,7 +48,7 @@ const HomePage = () => {
                                 Expert-driven, limitless creativity. Build stunning projects effortlessly, with top-tier quality and performance.
                             </p>
                             <div className="hidden md:flex relative items-center justify-center mt-8 md:mt-12 w-full">
-                                <Link href="#" className="flex items-center justify-center w-max rounded-full border-t border-foreground/30 bg-white/20 backdrop-blur-lg px-2 py-1 md:py-2 gap-2 md:gap-8 shadow-3xl shadow-background/40 cursor-pointer select-none">
+                                <Link href="/sign-up" className="flex items-center justify-center w-max rounded-full border-t border-foreground/30 bg-white/20 backdrop-blur-lg px-2 py-1 md:py-2 gap-2 md:gap-8 shadow-3xl shadow-background/40 cursor-pointer select-none">
                                     <p className="text-foreground text-sm text-center md:text-base font-medium pl-4 pr-4 lg:pr-0">
                                         ✨ {"  "} Start building your dream project now!
                                     </p>
@@ -156,7 +156,7 @@ const HomePage = () => {
 
             {/* pricing */}
             <Wrapper className="flex flex-col items-center justify-center py-12 relative">
-                <div className="hidden md:block absolute top-0 -right-1/3 w-72 h-72 bg-blue-500 rounded-full blur-[10rem] -z-10"></div>
+                <div id="pricing" className="hidden md:block absolute top-0 -right-1/3 w-72 h-72 bg-blue-500 rounded-full blur-[10rem] -z-10"></div>
                 <Container>
                     <div className="max-w-md mx-auto text-start md:text-center">
                         <SectionBadge title="Pricing" />
@@ -198,7 +198,7 @@ const HomePage = () => {
                                 </CardContent>
                                 <CardFooter className="mt-auto">
                                     <Link
-                                        href="#"
+                                        href="https://platnosc.hotpay.pl"
                                         className={cn(
                                             "w-full text-center text-primary-foreground bg-primary p-2 rounded-md text-sm font-medium",
                                             card.title !== "Unlimited Saas" && "!bg-foreground !text-background"
