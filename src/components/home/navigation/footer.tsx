@@ -2,6 +2,7 @@ import Icons from "@/components/global/icons"
 import { Heart } from 'lucide-react'
 import Link from 'next/link'
 
+
 const Footer = () => {
     return (
         <footer className="flex flex-col relative items-center justify-center border-t border-border pt-16 pb-8 px-6 lg:px-8 w-full max-w-6xl mx-auto lg:pt-32">
@@ -58,22 +59,22 @@ const Footer = () => {
                             </h3>
                             <ul className="mt-4 text-sm text-muted-foreground">
                                 <li className="">
-                                    <Link href="" className="hover:text-foreground transition-all duration-300">
+                                    <Link href="https://discord.gg/u7DKyRgufJ" className="hover:text-foreground transition-all duration-300">
                                         Discord
                                     </Link>
                                 </li>
                                 <li className="mt-2">
-                                    <Link href="" className="hover:text-foreground transition-all duration-300">
+                                    <Link href="https://www.instagram.com/skillcore.agency" className="hover:text-foreground transition-all duration-300">
                                         Instagram
                                     </Link>
                                 </li>
                                 <li className="mt-2">
-                                    <Link href="" className="hover:text-foreground transition-all duration-300">
+                                    <Link href="https://www.behance.net/skillcore.agency" className="hover:text-foreground transition-all duration-300">
                                         Behance
                                     </Link>
                                 </li>
                                 <li className="mt-2">
-                                    <Link href="" className="hover:text-foreground transition-all duration-300">
+                                    <Link href="https://www.linkedin.com" className="hover:text-foreground transition-all duration-300">
                                         LinkedIn
                                     </Link>
                                 </li>
@@ -96,11 +97,6 @@ const Footer = () => {
                                         BrandFetch
                                     </Link>
                                 </li>
-                                <li className="mt-2">
-                                    <Link href="" className="hover:text-foreground transition-all duration-300">
-                                        Support
-                                    </Link>
-                                </li>
                             </ul>
                         </div>
                         <div className="mt-10 md:mt-0 flex flex-col">
@@ -109,17 +105,17 @@ const Footer = () => {
                             </h3>
                             <ul className="mt-4 text-sm text-muted-foreground">
                                 <li className="">
-                                    <Link href="" className="hover:text-foreground transition-all duration-300">
+                                    <Link href="/aboutus" className="hover:text-foreground transition-all duration-300">
                                         About Us
                                     </Link>
                                 </li>
                                 <li className="mt-2">
-                                    <Link href="" className="hover:text-foreground transition-all duration-300">
+                                    <Link href="/privacypolicy" className="hover:text-foreground transition-all duration-300">
                                         Privacy Policy
                                     </Link>
                                 </li>
                                 <li className="mt-2">
-                                    <Link href="" className="hover:text-foreground transition-all duration-300">
+                                    <Link href="/termsandconditions" className="hover:text-foreground transition-all duration-300">
                                         Terms & Conditions
                                     </Link>
                                 </li>

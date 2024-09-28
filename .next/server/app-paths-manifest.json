@@ -1,5 +1,7 @@
 {
-  "/_not-found/page": "app/_not-found/page.js",
-  "/(auth)/sign-up/[[...sign-up]]/page": "app/(auth)/sign-up/[[...sign-up]]/page.js",
-  "/(marketing)/page": "app/(marketing)/page.js"
+  "/(company)/privacypolicy/page": "app/(company)/privacypolicy/page.js",
+  "/(company)/termsandconditions/page": "app/(company)/termsandconditions/page.js",
+  "/(company)/aboutus/page": "app/(company)/aboutus/page.js",
+  "/(marketing)/page": "app/(marketing)/page.js",
+  "/(auth)/sign-in/[[...sign-in]]/page": "app/(auth)/sign-in/[[...sign-in]]/page.js"
 }

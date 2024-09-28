@@ -16,25 +16,30 @@
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
-    "/(auth)/sign-up/[[...sign-up]]/page": [
+    "/(auth)/sign-in/[[...sign-in]]/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/(auth)/sign-up/[[...sign-up]]/page.js"
+      "static/chunks/app/(auth)/sign-in/[[...sign-in]]/page.js"
     ],
     "/(auth)/layout": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/(auth)/layout.js"
     ],
-    "/(auth)/sign-in/[[...sign-in]]/page": [
+    "/(company)/aboutus/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/(auth)/sign-in/[[...sign-in]]/page.js"
+      "static/chunks/app/(company)/aboutus/page.js"
     ],
-    "/_not-found/page": [
+    "/(company)/privacypolicy/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/_not-found/page.js"
+      "static/chunks/app/(company)/privacypolicy/page.js"
+    ],
+    "/(company)/termsandconditions/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(company)/termsandconditions/page.js"
     ]
   }
 }

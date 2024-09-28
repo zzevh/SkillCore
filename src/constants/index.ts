@@ -42,7 +42,7 @@ export const features = [
     {
         icon: Icons.shop,
         title: "E-Commerce Ready",
-        info: "Start selling online with our e-commerce features and integrations. + P24",
+        info: "Start selling online with our e-commerce features and integrations. + P24/HotPay",
     },
     {
         icon: Icons.server,
@@ -128,33 +128,33 @@ export const bentoCards = [
 
 export const reviews = [
     {
-        name: "Jack",
-        username: "@jack",
+        name: "zehv",
+        username: "@zzehv",
         body: "I've never seen anything like this before. It's amazing. I love it.",
     },
     {
-        name: "Jill",
-        username: "@jill",
+        name: "zehv",
+        username: "@zzehv",
         body: "I don't know what to say. I'm speechless. This is amazing.",
     },
     {
-        name: "John",
-        username: "@john",
+        name: "zehv",
+        username: "@zzehv",
         body: "I'm at a loss for words. This is amazing. I love it.",
     },
     {
-        name: "Jane",
-        username: "@jane",
+        name: "zehv",
+        username: "@zzehv",
         body: "I'm at a loss for words. This is amazing. I love it.",
     },
     {
-        name: "Jenny",
-        username: "@jenny",
+        name: "zehv",
+        username: "@zzehv",
         body: "I'm at a loss for words. This is amazing. I love it.",
     },
     {
-        name: "James",
-        username: "@james",
+        name: "zehv",
+        username: "@zzehv",
         body: "I'm at a loss for words. This is amazing. I love it.",
     },
 ];
