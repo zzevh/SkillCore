@@ -2,7 +2,7 @@ import React from 'react';
 import { Navbar } from '@/components';
 import SectionBadge from '@/components/ui/section-badge';
 
-const AboutUs = () => {
+const privacypolicy = () => {
   return (
     <section className='flex flex-col items-center'>
       <Navbar />
@@ -18,4 +18,4 @@ const AboutUs = () => {
   );
 };
 
-export default AboutUs;
+export default privacypolicy;

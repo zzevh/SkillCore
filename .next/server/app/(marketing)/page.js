@@ -12,6 +12,17 @@ exports.id = "app/(marketing)/page";
 exports.ids = ["app/(marketing)/page"];
 exports.modules = {
 
+/***/ "./action-async-storage.external":
+/*!****************************************************************************!*\
+  !*** external "next/dist/client/components/action-async-storage.external" ***!
+  \****************************************************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/client/components/action-async-storage.external");
+
+/***/ }),
+
 /***/ "../../client/components/action-async-storage.external":
 /*!*******************************************************************************!*\
   !*** external "next/dist/client/components/action-async-storage.external.js" ***!
@@ -23,6 +34,17 @@ module.exports = require("next/dist/client/components/action-async-storage.exter
 
 /***/ }),
 
+/***/ "./request-async-storage.external":
+/*!*****************************************************************************!*\
+  !*** external "next/dist/client/components/request-async-storage.external" ***!
+  \*****************************************************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/client/components/request-async-storage.external");
+
+/***/ }),
+
 /***/ "../../client/components/request-async-storage.external":
 /*!********************************************************************************!*\
   !*** external "next/dist/client/components/request-async-storage.external.js" ***!
@@ -31,6 +53,17 @@ module.exports = require("next/dist/client/components/action-async-storage.exter
 
 "use strict";
 module.exports = require("next/dist/client/components/request-async-storage.external.js");
+
+/***/ }),
+
+/***/ "./static-generation-async-storage.external":
+/*!***************************************************************************************!*\
+  !*** external "next/dist/client/components/static-generation-async-storage.external" ***!
+  \***************************************************************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/client/components/static-generation-async-storage.external");
 
 /***/ }),
 
@@ -278,7 +311,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ RootLayout),\n/* harmony export */   metadata: () => (/* binding */ metadata)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"(rsc)/./node_modules/next/dist/server/future/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var next_font_google_target_css_path_src_app_layout_tsx_import_Inter_arguments_subsets_latin_variableName_font___WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! next/font/google/target.css?{\"path\":\"src/app/layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"font\"} */ \"(rsc)/./node_modules/next/font/google/target.css?{\\\"path\\\":\\\"src/app/layout.tsx\\\",\\\"import\\\":\\\"Inter\\\",\\\"arguments\\\":[{\\\"subsets\\\":[\\\"latin\\\"]}],\\\"variableName\\\":\\\"font\\\"}\");\n/* harmony import */ var next_font_google_target_css_path_src_app_layout_tsx_import_Inter_arguments_subsets_latin_variableName_font___WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(next_font_google_target_css_path_src_app_layout_tsx_import_Inter_arguments_subsets_latin_variableName_font___WEBPACK_IMPORTED_MODULE_5__);\n/* harmony import */ var _config__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @/config */ \"(rsc)/./src/config/index.ts\");\n/* harmony import */ var _lib_utils__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @/lib/utils */ \"(rsc)/./src/lib/utils.ts\");\n/* harmony import */ var _styles_globals_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @/styles/globals.css */ \"(rsc)/./src/styles/globals.css\");\n/* harmony import */ var _clerk_nextjs__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @clerk/nextjs */ \"(rsc)/./node_modules/@clerk/nextjs/dist/esm/index.js\");\n/* harmony import */ var _clerk_themes__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @clerk/themes */ \"(rsc)/./node_modules/@clerk/themes/dist/themes/src/index.js\");\n/* harmony import */ var _clerk_themes__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_clerk_themes__WEBPACK_IMPORTED_MODULE_4__);\n\n\n\n\n\n\n\nconst metadata = _config__WEBPACK_IMPORTED_MODULE_1__.SITE_CONFIG;\nfunction RootLayout({ children }) {\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"html\", {\n        lang: \"en\",\n        suppressHydrationWarning: true,\n        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"body\", {\n            className: (0,_lib_utils__WEBPACK_IMPORTED_MODULE_2__.cn)(\"min-h-screen bg-background text-foreground antialiased max-w-full overflow-x-hidden\", (next_font_google_target_css_path_src_app_layout_tsx_import_Inter_arguments_subsets_latin_variableName_font___WEBPACK_IMPORTED_MODULE_5___default().className)),\n            children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_clerk_nextjs__WEBPACK_IMPORTED_MODULE_6__.ClerkProvider, {\n                appearance: {\n                    baseTheme: _clerk_themes__WEBPACK_IMPORTED_MODULE_4__.dark\n                },\n                children: children\n            }, void 0, false, {\n                fileName: \"/Users/blazejkrupka/Documents/AKTUALNE PROJEKTY/astra-main/SkillCore/src/app/layout.tsx\",\n                lineNumber: 26,\n                columnNumber: 17\n            }, this)\n        }, void 0, false, {\n            fileName: \"/Users/blazejkrupka/Documents/AKTUALNE PROJEKTY/astra-main/SkillCore/src/app/layout.tsx\",\n            lineNumber: 20,\n            columnNumber: 13\n        }, this)\n    }, void 0, false, {\n        fileName: \"/Users/blazejkrupka/Documents/AKTUALNE PROJEKTY/astra-main/SkillCore/src/app/layout.tsx\",\n        lineNumber: 19,\n        columnNumber: 9\n    }, this);\n}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHJzYykvLi9zcmMvYXBwL2xheW91dC50c3giLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7OztBQVFNQTtBQVBpQztBQUNOO0FBQ0g7QUFDZ0I7QUFDVDtBQUs5QixNQUFNSyxXQUFXSixnREFBV0EsQ0FBQztBQUVyQixTQUFTSyxXQUFXLEVBQy9CQyxRQUFRLEVBR1g7SUFDRyxxQkFDSSw4REFBQ0M7UUFBS0MsTUFBSztRQUFLQyx3QkFBd0I7a0JBQ3BDLDRFQUFDQztZQUNHQyxXQUFXViw4Q0FBRUEsQ0FDVCx1RkFDQUYsOEpBQWM7c0JBR2xCLDRFQUFDRyx3REFBYUE7Z0JBQUNVLFlBQVk7b0JBQUVDLFdBQVdWLCtDQUFJQTtnQkFBQzswQkFDeENHOzs7Ozs7Ozs7Ozs7Ozs7O0FBS3JCIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vYXN0cmEvLi9zcmMvYXBwL2xheW91dC50c3g/NTdhOSJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBGb290ZXIsIE5hdmJhciB9IGZyb20gXCJAL2NvbXBvbmVudHNcIjtcbmltcG9ydCB7IFNJVEVfQ09ORklHIH0gZnJvbSBcIkAvY29uZmlnXCI7XG5pbXBvcnQgeyBjbiB9IGZyb20gXCJAL2xpYi91dGlsc1wiO1xuaW1wb3J0IFwiQC9zdHlsZXMvZ2xvYmFscy5jc3NcIjtcbmltcG9ydCB7IENsZXJrUHJvdmlkZXIgfSBmcm9tICdAY2xlcmsvbmV4dGpzJztcbmltcG9ydCB7IGRhcmsgfSBmcm9tICdAY2xlcmsvdGhlbWVzJztcbmltcG9ydCB7IEludGVyIH0gZnJvbSBcIm5leHQvZm9udC9nb29nbGVcIjtcblxuY29uc3QgZm9udCA9IEludGVyKHsgc3Vic2V0czogW1wibGF0aW5cIl0gfSk7XG5cbmV4cG9ydCBjb25zdCBtZXRhZGF0YSA9IFNJVEVfQ09ORklHO1xuXG5leHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBSb290TGF5b3V0KHtcbiAgICBjaGlsZHJlbixcbn06IHtcbiAgICBjaGlsZHJlbjogUmVhY3QuUmVhY3ROb2RlO1xufSkge1xuICAgIHJldHVybiAoXG4gICAgICAgIDxodG1sIGxhbmc9XCJlblwiIHN1cHByZXNzSHlkcmF0aW9uV2FybmluZz5cbiAgICAgICAgICAgIDxib2R5XG4gICAgICAgICAgICAgICAgY2xhc3NOYW1lPXtjbihcbiAgICAgICAgICAgICAgICAgICAgXCJtaW4taC1zY3JlZW4gYmctYmFja2dyb3VuZCB0ZXh0LWZvcmVncm91bmQgYW50aWFsaWFzZWQgbWF4LXctZnVsbCBvdmVyZmxvdy14LWhpZGRlblwiLFxuICAgICAgICAgICAgICAgICAgICBmb250LmNsYXNzTmFtZVxuICAgICAgICAgICAgICAgICl9XG4gICAgICAgICAgICA+XG4gICAgICAgICAgICAgICAgPENsZXJrUHJvdmlkZXIgYXBwZWFyYW5jZT17eyBiYXNlVGhlbWU6IGRhcmsgfX0+XG4gICAgICAgICAgICAgICAgICAgIHtjaGlsZHJlbn1cbiAgICAgICAgICAgICAgICA8L0NsZXJrUHJvdmlkZXI+XG4gICAgICAgICAgICA8L2JvZHk+XG4gICAgICAgIDwvaHRtbD5cbiAgICApO1xufTtcbiJdLCJuYW1lcyI6WyJmb250IiwiU0lURV9DT05GSUciLCJjbiIsIkNsZXJrUHJvdmlkZXIiLCJkYXJrIiwibWV0YWRhdGEiLCJSb290TGF5b3V0IiwiY2hpbGRyZW4iLCJodG1sIiwibGFuZyIsInN1cHByZXNzSHlkcmF0aW9uV2FybmluZyIsImJvZHkiLCJjbGFzc05hbWUiLCJhcHBlYXJhbmNlIiwiYmFzZVRoZW1lIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///(rsc)/./src/app/layout.tsx\n");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ RootLayout),\n/* harmony export */   metadata: () => (/* binding */ metadata)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"(rsc)/./node_modules/next/dist/server/future/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var next_font_google_target_css_path_src_app_layout_tsx_import_Inter_arguments_subsets_latin_variableName_font___WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! next/font/google/target.css?{\"path\":\"src/app/layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"font\"} */ \"(rsc)/./node_modules/next/font/google/target.css?{\\\"path\\\":\\\"src/app/layout.tsx\\\",\\\"import\\\":\\\"Inter\\\",\\\"arguments\\\":[{\\\"subsets\\\":[\\\"latin\\\"]}],\\\"variableName\\\":\\\"font\\\"}\");\n/* harmony import */ var next_font_google_target_css_path_src_app_layout_tsx_import_Inter_arguments_subsets_latin_variableName_font___WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(next_font_google_target_css_path_src_app_layout_tsx_import_Inter_arguments_subsets_latin_variableName_font___WEBPACK_IMPORTED_MODULE_5__);\n/* harmony import */ var _config__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @/config */ \"(rsc)/./src/config/index.ts\");\n/* harmony import */ var _lib_utils__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @/lib/utils */ \"(rsc)/./src/lib/utils.ts\");\n/* harmony import */ var _styles_globals_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @/styles/globals.css */ \"(rsc)/./src/styles/globals.css\");\n/* harmony import */ var _clerk_nextjs__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @clerk/nextjs */ \"(rsc)/./node_modules/@clerk/nextjs/dist/esm/index.js\");\n/* harmony import */ var _clerk_themes__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @clerk/themes */ \"(rsc)/./node_modules/@clerk/themes/dist/themes/src/index.js\");\n/* harmony import */ var _clerk_themes__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_clerk_themes__WEBPACK_IMPORTED_MODULE_4__);\n\n\n\n\n\n\n\nconst metadata = _config__WEBPACK_IMPORTED_MODULE_1__.SITE_CONFIG;\nfunction RootLayout({ children }) {\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"html\", {\n        lang: \"en\",\n        suppressHydrationWarning: true,\n        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"body\", {\n            className: (0,_lib_utils__WEBPACK_IMPORTED_MODULE_2__.cn)(\"min-h-screen bg-background text-foreground antialiased max-w-full overflow-x-hidden\", (next_font_google_target_css_path_src_app_layout_tsx_import_Inter_arguments_subsets_latin_variableName_font___WEBPACK_IMPORTED_MODULE_5___default().className)),\n            children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_clerk_nextjs__WEBPACK_IMPORTED_MODULE_6__.ClerkProvider, {\n                appearance: {\n                    baseTheme: _clerk_themes__WEBPACK_IMPORTED_MODULE_4__.dark\n                },\n                children: children\n            }, void 0, false, {\n                fileName: \"/Users/blazejkrupka/Documents/AKTUALNE PROJEKTY/astra-main/SkillCore/src/app/layout.tsx\",\n                lineNumber: 26,\n                columnNumber: 17\n            }, this)\n        }, void 0, false, {\n            fileName: \"/Users/blazejkrupka/Documents/AKTUALNE PROJEKTY/astra-main/SkillCore/src/app/layout.tsx\",\n            lineNumber: 20,\n            columnNumber: 13\n        }, this)\n    }, void 0, false, {\n        fileName: \"/Users/blazejkrupka/Documents/AKTUALNE PROJEKTY/astra-main/SkillCore/src/app/layout.tsx\",\n        lineNumber: 19,\n        columnNumber: 9\n    }, this);\n}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHJzYykvLi9zcmMvYXBwL2xheW91dC50c3giLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7OztBQVFNQTtBQVBpQztBQUNOO0FBQ0g7QUFDZ0I7QUFDVDtBQUs5QixNQUFNSyxXQUFXSixnREFBV0EsQ0FBQztBQUVyQixTQUFTSyxXQUFXLEVBQy9CQyxRQUFRLEVBR1g7SUFDRyxxQkFDSSw4REFBQ0M7UUFBS0MsTUFBSztRQUFLQyx3QkFBd0I7a0JBQ3BDLDRFQUFDQztZQUNHQyxXQUFXViw4Q0FBRUEsQ0FDVCx1RkFDQUYsOEpBQWM7c0JBR2xCLDRFQUFDRyx3REFBYUE7Z0JBQUNVLFlBQVk7b0JBQUVDLFdBQVdWLCtDQUFJQTtnQkFBQzswQkFDeENHOzs7Ozs7Ozs7Ozs7Ozs7O0FBTXJCIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vYXN0cmEvLi9zcmMvYXBwL2xheW91dC50c3g/NTdhOSJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBGb290ZXIsIE5hdmJhciB9IGZyb20gXCJAL2NvbXBvbmVudHNcIjtcbmltcG9ydCB7IFNJVEVfQ09ORklHIH0gZnJvbSBcIkAvY29uZmlnXCI7XG5pbXBvcnQgeyBjbiB9IGZyb20gXCJAL2xpYi91dGlsc1wiO1xuaW1wb3J0IFwiQC9zdHlsZXMvZ2xvYmFscy5jc3NcIjtcbmltcG9ydCB7IENsZXJrUHJvdmlkZXIgfSBmcm9tICdAY2xlcmsvbmV4dGpzJztcbmltcG9ydCB7IGRhcmsgfSBmcm9tICdAY2xlcmsvdGhlbWVzJztcbmltcG9ydCB7IEludGVyIH0gZnJvbSBcIm5leHQvZm9udC9nb29nbGVcIjtcblxuY29uc3QgZm9udCA9IEludGVyKHsgc3Vic2V0czogW1wibGF0aW5cIl0gfSk7XG5cbmV4cG9ydCBjb25zdCBtZXRhZGF0YSA9IFNJVEVfQ09ORklHO1xuXG5leHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBSb290TGF5b3V0KHtcbiAgICBjaGlsZHJlbixcbn06IHtcbiAgICBjaGlsZHJlbjogUmVhY3QuUmVhY3ROb2RlO1xufSkge1xuICAgIHJldHVybiAoXG4gICAgICAgIDxodG1sIGxhbmc9XCJlblwiIHN1cHByZXNzSHlkcmF0aW9uV2FybmluZz5cbiAgICAgICAgICAgIDxib2R5XG4gICAgICAgICAgICAgICAgY2xhc3NOYW1lPXtjbihcbiAgICAgICAgICAgICAgICAgICAgXCJtaW4taC1zY3JlZW4gYmctYmFja2dyb3VuZCB0ZXh0LWZvcmVncm91bmQgYW50aWFsaWFzZWQgbWF4LXctZnVsbCBvdmVyZmxvdy14LWhpZGRlblwiLFxuICAgICAgICAgICAgICAgICAgICBmb250LmNsYXNzTmFtZVxuICAgICAgICAgICAgICAgICl9XG4gICAgICAgICAgICA+XG4gICAgICAgICAgICAgICAgPENsZXJrUHJvdmlkZXIgYXBwZWFyYW5jZT17eyBiYXNlVGhlbWU6IGRhcmsgfX0+XG4gICAgICAgICAgICAgICAgICAgIHtjaGlsZHJlbn1cbiAgICAgICAgICAgICAgICA8L0NsZXJrUHJvdmlkZXI+XG5cbiAgICAgICAgICAgIDwvYm9keT5cbiAgICAgICAgPC9odG1sPlxuICAgICk7XG59O1xuIl0sIm5hbWVzIjpbImZvbnQiLCJTSVRFX0NPTkZJRyIsImNuIiwiQ2xlcmtQcm92aWRlciIsImRhcmsiLCJtZXRhZGF0YSIsIlJvb3RMYXlvdXQiLCJjaGlsZHJlbiIsImh0bWwiLCJsYW5nIiwic3VwcHJlc3NIeWRyYXRpb25XYXJuaW5nIiwiYm9keSIsImNsYXNzTmFtZSIsImFwcGVhcmFuY2UiLCJiYXNlVGhlbWUiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///(rsc)/./src/app/layout.tsx\n");
 
 /***/ }),
 
@@ -291,9 +324,20 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   $$typeof: () => (/* binding */ $$typeof),
+/* harmony export */   __esModule: () => (/* binding */ __esModule),
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! next/dist/build/webpack/loaders/next-flight-loader/module-proxy */ "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-loader/module-proxy.js");
+
+const proxy = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`/Users/blazejkrupka/Documents/AKTUALNE PROJEKTY/astra-main/SkillCore/src/components/global/container.tsx`)
+
+// Accessing the __esModule property and exporting $$typeof are required here.
+// The __esModule getter forces the proxy target to create the default export
+// and the $$typeof value is for rendering logic to determine if the module
+// is a client boundary.
+const { __esModule, $$typeof } = proxy;
+const __default__ = proxy.default;
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ((0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`/Users/blazejkrupka/Documents/AKTUALNE PROJEKTY/astra-main/SkillCore/src/components/global/container.tsx#default`));
 
@@ -364,9 +408,20 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   $$typeof: () => (/* binding */ $$typeof),
+/* harmony export */   __esModule: () => (/* binding */ __esModule),
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! next/dist/build/webpack/loaders/next-flight-loader/module-proxy */ "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-loader/module-proxy.js");
+
+const proxy = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`/Users/blazejkrupka/Documents/AKTUALNE PROJEKTY/astra-main/SkillCore/src/components/providers/providers.tsx`)
+
+// Accessing the __esModule property and exporting $$typeof are required here.
+// The __esModule getter forces the proxy target to create the default export
+// and the $$typeof value is for rendering logic to determine if the module
+// is a client boundary.
+const { __esModule, $$typeof } = proxy;
+const __default__ = proxy.default;
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ((0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`/Users/blazejkrupka/Documents/AKTUALNE PROJEKTY/astra-main/SkillCore/src/components/providers/providers.tsx#default`));
 
@@ -382,9 +437,20 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   $$typeof: () => (/* binding */ $$typeof),
+/* harmony export */   __esModule: () => (/* binding */ __esModule),
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! next/dist/build/webpack/loaders/next-flight-loader/module-proxy */ "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-loader/module-proxy.js");
+
+const proxy = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`/Users/blazejkrupka/Documents/AKTUALNE PROJEKTY/astra-main/SkillCore/src/components/providers/theme-provider.tsx`)
+
+// Accessing the __esModule property and exporting $$typeof are required here.
+// The __esModule getter forces the proxy target to create the default export
+// and the $$typeof value is for rendering logic to determine if the module
+// is a client boundary.
+const { __esModule, $$typeof } = proxy;
+const __default__ = proxy.default;
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ((0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`/Users/blazejkrupka/Documents/AKTUALNE PROJEKTY/astra-main/SkillCore/src/components/providers/theme-provider.tsx#default`));
 
@@ -448,6 +514,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! next/dist/build/webpack/loaders/next-flight-loader/module-proxy */ "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-loader/module-proxy.js");
 
+const proxy = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`/Users/blazejkrupka/Documents/AKTUALNE PROJEKTY/astra-main/SkillCore/src/components/ui/lamp.tsx`)
+
+// Accessing the __esModule property and exporting $$typeof are required here.
+// The __esModule getter forces the proxy target to create the default export
+// and the $$typeof value is for rendering logic to determine if the module
+// is a client boundary.
+const { __esModule, $$typeof } = proxy;
+const __default__ = proxy.default;
 
 const e0 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`/Users/blazejkrupka/Documents/AKTUALNE PROJEKTY/astra-main/SkillCore/src/components/ui/lamp.tsx#LampContainer`);
 
@@ -516,7 +590,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 var __webpack_require__ = require("../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, ["vendor-chunks/next","vendor-chunks/@swc","vendor-chunks/@clerk","vendor-chunks/tailwind-merge","vendor-chunks/crypto-js","vendor-chunks/swr","vendor-chunks/tslib","vendor-chunks/use-sync-external-store","vendor-chunks/cookie","vendor-chunks/map-obj","vendor-chunks/no-case","vendor-chunks/lower-case","vendor-chunks/clsx","vendor-chunks/snakecase-keys","vendor-chunks/snake-case","vendor-chunks/dot-case","vendor-chunks/framer-motion","vendor-chunks/next-themes","vendor-chunks/@radix-ui","vendor-chunks/class-variance-authority","vendor-chunks/lucide-react"], () => (__webpack_exec__("(rsc)/./node_modules/next/dist/build/webpack/loaders/next-app-loader.js?name=app%2F(marketing)%2Fpage&page=%2F(marketing)%2Fpage&appPaths=%2F(marketing)%2Fpage&pagePath=private-next-app-dir%2F(marketing)%2Fpage.tsx&appDir=%2FUsers%2Fblazejkrupka%2FDocuments%2FAKTUALNE%20PROJEKTY%2Fastra-main%2FSkillCore%2Fsrc%2Fapp&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js&rootDir=%2FUsers%2Fblazejkrupka%2FDocuments%2FAKTUALNE%20PROJEKTY%2Fastra-main%2FSkillCore&isDev=true&tsconfigPath=tsconfig.json&basePath=&assetPrefix=&nextConfigOutput=&preferredRegion=&middlewareConfig=e30%3D!")));
+var __webpack_exports__ = __webpack_require__.X(0, ["vendor-chunks/next","vendor-chunks/@swc","vendor-chunks/@clerk","vendor-chunks/tailwind-merge","vendor-chunks/crypto-js","vendor-chunks/swr","vendor-chunks/tslib","vendor-chunks/use-sync-external-store","vendor-chunks/cookie","vendor-chunks/map-obj","vendor-chunks/no-case","vendor-chunks/lower-case","vendor-chunks/clsx","vendor-chunks/snakecase-keys","vendor-chunks/snake-case","vendor-chunks/dot-case","vendor-chunks/framer-motion","vendor-chunks/lucide-react","vendor-chunks/class-variance-authority","vendor-chunks/@radix-ui","vendor-chunks/next-themes"], () => (__webpack_exec__("(rsc)/./node_modules/next/dist/build/webpack/loaders/next-app-loader.js?name=app%2F(marketing)%2Fpage&page=%2F(marketing)%2Fpage&appPaths=%2F(marketing)%2Fpage&pagePath=private-next-app-dir%2F(marketing)%2Fpage.tsx&appDir=%2FUsers%2Fblazejkrupka%2FDocuments%2FAKTUALNE%20PROJEKTY%2Fastra-main%2FSkillCore%2Fsrc%2Fapp&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js&rootDir=%2FUsers%2Fblazejkrupka%2FDocuments%2FAKTUALNE%20PROJEKTY%2Fastra-main%2FSkillCore&isDev=true&tsconfigPath=tsconfig.json&basePath=&assetPrefix=&nextConfigOutput=&preferredRegion=&middlewareConfig=e30%3D!")));
 module.exports = __webpack_exports__;
 
 })();

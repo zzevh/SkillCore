@@ -8,6 +8,8 @@ const nextConfig = {
       'utfs.io',
       'img.clerk.com',
       'subdomain',
+      'media.discordapp.net',
+      'assets.aceternity.com'
     ],
   },
   reactStrictMode: false,

@@ -1,7 +1,7 @@
 {
-  "/(company)/privacypolicy/page": "app/(company)/privacypolicy/page.js",
-  "/(company)/termsandconditions/page": "app/(company)/termsandconditions/page.js",
-  "/(company)/aboutus/page": "app/(company)/aboutus/page.js",
-  "/(marketing)/page": "app/(marketing)/page.js",
-  "/(auth)/sign-in/[[...sign-in]]/page": "app/(auth)/sign-in/[[...sign-in]]/page.js"
+  "/_not-found/page": "app/_not-found/page.js",
+  "/(dashboard)/dashboard/projects/page": "app/(dashboard)/dashboard/projects/page.js",
+  "/(dashboard)/dashboard/createproject/page": "app/(dashboard)/dashboard/createproject/page.js",
+  "/(dashboard)/dashboard/page": "app/(dashboard)/dashboard/page.js",
+  "/(marketing)/page": "app/(marketing)/page.js"
 }
